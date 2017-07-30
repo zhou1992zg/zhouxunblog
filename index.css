@@ -1,0 +1,53 @@
+body {
+       background-color: #cccccc;
+       font-size:        small;
+       font-family:      Georgia, "Times New Roman", Times, serif;
+       margin:           0px;
+       background-image: url(../images/headerLogo.jpg);
+       background-repeat: no-repeat;
+       background-position: 50% 0%;
+       }
+#top {
+       margin:           100px 0px 0px 0px;
+
+       }
+#header {
+       font-size:        150%;
+       line-height:      20px;
+       text-align:       center;
+       margin:           0px 0px 130px 0px;
+        }
+#main {
+       background-color: #ffffff;
+       font-size:        105%;
+       padding:          15px;
+       margin:           10px 10px 10px 10px;
+       width:            60%;
+       float:            left;
+       }
+ul {
+       background-color: #ffffff;
+       margin:           10px 10px 0px 10px;
+       list-style-type:  none;
+       padding:          5px 0px 5px 0px;
+       }
+ul li {
+       display:          inline;
+       padding:          5px 10px 5px 10px;
+       }
+ul li a:link, ul li a:visited{
+       color:            #954b4b;
+       border-bottom:    none;
+       font-weight:      bold;
+       }
+ul li.selected {
+       background-color: #c8b99c;
+       } 
+#directory {
+       background-color: #ffffff;
+       font-size:        105%;
+       padding:          15px;
+       margin:           10px 10px 10px 0px;
+       width:            30%;
+       float:            right;
+       }
